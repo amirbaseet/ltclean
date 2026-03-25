@@ -42,5 +42,8 @@
   "homepage": "https://github.com/amirbaseet/ltclean#readme",
   "dependencies": {
     "llm-token-cleaner": "^1.0.3"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.1"
   }
 }
