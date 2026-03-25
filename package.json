@@ -4,7 +4,7 @@
   "description": "CLI to strip LLM output noise and minimize token count — pipe-friendly, clipboard-ready",
   "type": "module",
   "bin": {
-    "ltclean": "./bin/ltclean.js"
+    "ltclean": "bin/ltclean.js"
   },
   "files": [
     "bin",
@@ -18,14 +18,23 @@
     "node": ">=18.0.0"
   },
   "keywords": [
-    "llm", "token", "cleaner", "cli", "prompt", "markdown",
-    "strip", "pipe", "clipboard", "openai", "anthropic"
+    "llm",
+    "token",
+    "cleaner",
+    "cli",
+    "prompt",
+    "markdown",
+    "strip",
+    "pipe",
+    "clipboard",
+    "openai",
+    "anthropic"
   ],
   "author": "amro_baseet1",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amirbaseet/ltclean.git"
+    "url": "git+https://github.com/amirbaseet/ltclean.git"
   },
   "bugs": {
     "url": "https://github.com/amirbaseet/ltclean/issues"
