@@ -1,6 +1,6 @@
 {
   "name": "ltclean",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI to strip LLM output noise and minimize token count — pipe-friendly, clipboard-ready",
   "type": "module",
   "bin": {
