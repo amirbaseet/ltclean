@@ -12,7 +12,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "node bin/ltclean.js --help"
+    "test": "vitest run"
   },
   "engines": {
     "node": ">=18.0.0"

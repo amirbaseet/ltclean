@@ -46,5 +46,4 @@ npm publish --access public --otp=YOUR_CODE
 ## Known issues
 
 - No automated CI on this repo yet — tests must be run manually before publishing
-- v1.0.0 was published with an invalid bin field (auto-corrected by npm on install). v1.0.2 has the correct bin field.
-- The `ltclean` GitHub repo has no GitHub Actions workflows yet
+- v1.0.0 had `"bin": { "ltclean": "./bin/ltclean.js" }` — the leading `./` was invalid. `npm pkg fix` in v1.0.2 corrected it to `"bin/ltclean.js"` (no `./` prefix). npm silently auto-corrected this on install, so end users were unaffected.
